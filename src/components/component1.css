@@ -1,0 +1,32 @@
+.component1-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.component1-c-t-a-title {
+  transition: 0.3s;
+}
+.component1-c-t-a-title:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.component1-c-t-a-subtitle {
+  font-size: 12px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 300;
+}
+.component1-c-t-a-subtitle:hover {
+  color: var(--dl-color-turquoise-default);
+}
+@media(max-width: 767px) {
+  .component1-c-t-a-title {
+    display: none;
+  }
+  .component1-c-t-a-subtitle {
+    display: none;
+  }
+}
